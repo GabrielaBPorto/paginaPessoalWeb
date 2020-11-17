@@ -11,38 +11,41 @@
     <title>Cúrriculo Gabriela Porto</title>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid" style="position: static;">
+    <div class="jumbotron jumbotron-fluid bg-dark text-white m-0" style="position: static; border: 10px solid; border-color: crimson;">
         <div class="container" style="text-align: center;">
           <h1 class="display-4">Gabriela Porto</h1>
           <p class="lead">Essa é a minha página pessoal.</p>
         </div>
       </div>
-
       <div class="container col-auto">
         <div class="row">
-          <div id="navbar" class="col-sm-2">
+          <div id="navbar" class="col-sm-2 bg-dark text-white d-inline">
+            <div>
+              <img style="border: 1px solid; border-radius: 50%;" src="https://cdn.discordapp.com/avatars/145374500706451456/63f9d71c222306975300e770922f3849.webp" alt="Foto de Gabriela">
+            </div>
+
             <ul class="nav" style="display: inline;">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#sobreMim">Sobre Mim</a>
+                  <a class="nav-link active" href="#sobreMim" data-toggle="collapse">Sobre Mim</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#expPro">Experiência Profissional</a>
+                  <a class="nav-link" href="#expPro" data-toggle="collapse">Experiência Profissional</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#infoAdd">Informações Adicionais</a>
+                    <a class="nav-link" href="#infoAdd" data-toggle="collapse">Informações Adicionais</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contato">Contato</a>
+                  <a class="nav-link" href="#contato" data-toggle="collapse">Contato</a>
                 </li>
             </ul>
         </div>
-        <div id="conteudo" class="col-sm-10">
-          <section id="sobreMim">
+        <div id="conteudo" class="col-sm-10 bg-dark text-white d-inline">
+          <section id="sobreMim" class="collapse in active" >
               <p>Meu nome é Gabriela Bairros Porto, sou aluna de Informática Biomédica da UFPR. Gosto bastante de ler, fazer tricô e jogar.</p>
               <p>Tenho bastante interessante ná área de programação web, data science, data mining, realidade aumentada, entre outras.</p>
           </section>
   
-          <section id="expPro">
+          <section id="expPro" class="collapse in">
               <p>Imersys
                   Período: Julho de 2020 - Atualmente
                   Cargo: Estagiário Full-Stack
@@ -68,7 +71,7 @@
               </p>
           </section>
   
-          <section id="infoAdd">
+          <section id="infoAdd"  class="collapse in">
               <h5>Projetos</h5>
               <p>Para acessar os projetos que já realizei</p>
               <a href="https://github.com/GabrielaBPorto">GitHub</a>
@@ -80,7 +83,7 @@
                   </p>
           </section>
   
-          <section id="contato">
+          <section id="contato"  class="collapse in">
               <p>Para me contatar enviar email para : gbp16@inf.ufpr.br ou gabriela.bairros.porto96@gmail.com</p>
           </section>
       </div>

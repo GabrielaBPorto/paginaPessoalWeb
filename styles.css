@@ -1,12 +1,6 @@
 #navbar {
     width: 45%;
-    display: inline-block;
-    padding: 70px 0;
-}
-
-#conteudo {
-    width: 50%;
-    display: inline-block
+    padding: 70px 5px;
 }
 
 #sobreMim {
