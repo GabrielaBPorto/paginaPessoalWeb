@@ -10,3 +10,13 @@
 a {
     color:#eddcd2 !important;
 }
+.conteudo {
+    color:#f0efeb
+}
+#emptyPage {
+    background-color:#b7b7a4;
+    vertical-align: auto;
+}
+#avatar {
+    border: 1px solid; border-radius: 50%;
+}
