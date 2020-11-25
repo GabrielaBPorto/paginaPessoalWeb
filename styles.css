@@ -13,5 +13,18 @@ a {
     color:#f0efeb
 }
 #avatar {
-    border: 1px solid; border-radius: 50%;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.container-fluid {
+    height: 100vh;
 }
