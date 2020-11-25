@@ -63,3 +63,9 @@ strong {
     position: relative;
     font-family: 'Roboto', sans-serif;
 }
+
+.footer {
+    width: 100%;
+    background-color:aquamarine;
+    height: 2vh;
+}
