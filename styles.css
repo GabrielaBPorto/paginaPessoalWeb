@@ -28,3 +28,38 @@ html, body {
 .container-fluid {
     height: 100vh;
 }
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#548A58
+}
+
+.texto-comum{
+    color:#A7C5A9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    font-weight: bold;
+    background-color: #b7b7a4;
+    color:#548A58;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+#conteudo {
+    background-color:#464646;
+    vertical-align: center;
+    
+    height: 98vh;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}

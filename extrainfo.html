@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -17,10 +20,13 @@
         <div class="row">
 
           <!--NavBar-->
-          <div id="navbar" class="col-sm-2" style="text-align: center; background-color:#cb997e; height: 98vh;">
+          <div id="navbar" class="col-sm-2" style="text-align: center; background-color:#333333; height: 98vh">
             <div class="mt-3">
               <div class="mt-4 p-2">
-                <img id="avatar" class="img-fluid img-thumbnail" src="https://cdn.discordapp.com/avatars/145374500706451456/63f9d71c222306975300e770922f3849.webp"
+                <img id="avatar" 
+                  class="img-fluid img-thumbnail"
+                  style="background-color:#548A58"
+                  src="https://cdn.discordapp.com/avatars/145374500706451456/63f9d71c222306975300e770922f3849.webp"
                   alt="Foto de Gabriela">
               </div>
         
@@ -39,29 +45,31 @@
           </div>
 
           <!-- Conteudo -->
-          <div id="conteudo" class="col-sm-10 d-inline p-5" style="background-color:#a5a58d; vertical-align: center;  height: 98vh;position: relative;">
-            <section id="infoAdd">            
-                <h5>Eventos Participados</h5>
-                <p>Enapet(2017) - Evento nacional entre todos os grupos de pesquisa PET.
-                </p>
-                <p> Global Game Jam CWB - Evento global de desenvolvimento de jogos em 48h.
-                    </p>
+          <div id="conteudo" class="col-sm-10 d-inline p-5" style="background-color:#464646; vertical-align: center;  height: 98vh;position: relative;">
+            <section id="infoAdd m-3 p-2">            
+                <h5 class="titulo m-3 p-2">Eventos Participados</h5>
+                <p class="texto-comum  m-3 p-2">Enapet(2017) - Evento nacional entre todos os grupos de pesquisa PET.</p>
+                <p class="texto-comum  m-3 p-2"> Global Game Jam CWB - Evento global de desenvolvimento de jogos em 48h.</p>
             </section>
     
-            <section id="contato">
-                <p>Para me contatar enviar email para : <strong>gbp16@inf.ufpr.br</strong> ou <strong>gabriela.bairros.porto96@gmail.com</strong></p>
+            <section id="contato  m-3 p-2">
+              <h5 class="titulo  m-3 p-2">Contato:</h5>
 
-                
-                <a href="https://www.linkedin.com/in/gabriela-porto-945515156/" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
-                    <button type="button" class="btn btn-lg">
-                        <i class="fab fa-linkedin" style="font-size:3rem;"></i>
-                    </button>
-                </a>
-                <a href="https://github.com/GabrielaBPorto" data-toggle="tooltip" data-placement="bottom" title="Github">
-                    <button type="button" class="btn btn-lg">
-                        <i class="fab fa-github" style="font-size:3rem;"></i>
-                    </button>
-                </a>
+                <p class="texto-comum m-3 p-2">Para me contatar enviar email para : <strong>gbp16@inf.ufpr.br</strong> ou <strong>gabriela.bairros.porto96@gmail.com</strong></p>
+
+                <div class="m-3 p-2">
+                  <a href="https://www.linkedin.com/in/gabriela-porto-945515156/" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
+                      <button type="button" class="btn btn-lg">
+                          <i class="fab fa-linkedin" style="font-size:3rem;"></i>
+                      </button>
+                  </a>
+                  <a href="https://github.com/GabrielaBPorto" data-toggle="tooltip" data-placement="bottom" title="Github">
+                      <button type="button" class="btn btn-lg">
+                          <i class="fab fa-github" style="font-size:3rem;"></i>
+                      </button>
+                  </a>
+                </div>
+              </div>
             </section>
           </div>
           <footer class="col-sm-12 m-0 p-0">
